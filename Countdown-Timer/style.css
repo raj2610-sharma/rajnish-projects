@@ -1,0 +1,88 @@
+body,html{
+    width: 99%;
+    height: 80vh;
+}
+.container{
+    width: 99%;
+    
+    background-color: white;
+    
+}
+.container-box{
+
+    height: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.box {
+  
+    background-color: greenyellow;
+    border: 0;
+    border-radius: 10px;
+    margin: 65px 10px 0 10px;
+}
+.title{
+    text-align: center;
+}
+.timer-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 2rem 2rem 2rem;
+}
+.days,.hours,.mins,.sec{
+    background-color: black;
+    color: white;
+    
+    
+   
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+.upper-day,.upper-hour,.upper-mins,.upper-sec{
+    font-size: 60px;
+    padding: 0 5px;
+}
+.lower-day,.lower-hour,.lower-mins,.lower-sec{
+    background-color: yellow;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    border:0;
+    padding: 0 5px;
+}
+.input-box {
+  
+    text-align: center;
+    margin-top: 40px;
+}
+input#end-time {
+  
+    border: 1px solid;
+    border-radius: 5px;
+    width: 30%;
+   
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+label {
+    font-size: 40px;
+}
+button {
+    border: 0;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    background: brown;
+    font-size: 18px;
+}
+
+
+

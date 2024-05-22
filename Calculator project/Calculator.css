@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 90vh;
+   margin-top: 5vh;
+
+   padding-top: 100px;
+}
+.cal {
+    background-color: black;
+    width: 40vh;
+    height: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30%;
+    border: none;
+    margin-right: 30%;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+}
+.boxes {
+    padding-top: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.btn{
+    height: 15%;
+    width: 17%;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 4vmin;
+    color: black;
+    background-color: #ffffc7;
+    font-weight: 600;
+   
+}
+.input{
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 2vmin;
+    color: black;
+}
